@@ -1,0 +1,165 @@
+div{
+	border: 1px solid;
+}
+
+#header{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 8%;
+	background-color: #BFE8D7;
+	z-index: 999;
+}
+
+#logoDiv{
+	position: fixed;
+	left: 14%;
+	top: 2%;
+}
+
+#logoDiv:hover{
+	text-shadow:0px 0px 7px #FFFFFF;
+}
+
+#logo{
+	font-size: 30px;
+	color: black;
+	font-family: 'BodoniFLF-Bolditalic';
+	cursor: pointer;
+	letter-spacing: -0.75;
+	text-decoration: none;
+}
+
+.filterOptions{
+	position: fixed;
+	background-color: black;
+	top: 2%;
+	display: inline;
+	border-radius: 100%;
+	cursor: pointer;
+	width: 32px;
+	height: 32px;
+}
+
+#filterLast{
+	left: 30%;
+}
+
+#filterTag{
+	left: 32%;
+}
+
+#filterShirt{
+	left: 35%;
+}
+
+#filterPants{
+	left: 38%;
+}
+
+#filterShoes{
+	left: 41%;
+}
+
+#filterAccessories{
+	left: 44%;
+}
+
+#filterSearch{
+	left: 47%;
+}
+
+#extras{
+	position: fixed;
+	left: 60%;
+	top: 2%;
+	width: 40%;
+	color: white;
+	font-size: 20px;
+}
+
+#extras ul li{
+	display: inline;
+	list-style: none;
+	padding-left: 10%;
+	cursor: pointer;
+}
+
+#extras ul li:hover{
+	text-shadow:0px 0px 7px white;
+}
+
+#search {
+	width: 14%;
+	position: fixed;
+	left: 52%;
+	height: 5%;
+}
+
+#imgSearch {
+	position: fixed;
+	left: 53%;
+}
+
+#txtSearch{
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	position: fixed;
+	left: 55%;
+	top: 2.5%;
+}
+
+#user {
+	width: 12%;
+	position: fixed;
+	right: 14%;
+	height: 6%;
+	top: 1%;
+}
+
+#userName {
+	color: white;
+	position: fixed;
+	top: 3%;
+	right: 23%;
+	font-size: 18px;
+	font-family: 'Aleo-Bolditalic';
+}
+
+#userPic {
+	position: fixed;
+	right: 20%;
+}
+/*////////////////////////////////*/
+
+@font-face{
+	font-family:'BodoniFLF-Bolditalic';
+	src:url('fonts/bodoni/BodoniFLF-BoldItalic.ttf');
+}
+
+@font-face{
+	font-family:'BodoniFLF-Italic';
+	src:url('fonts/bodoni/BodoniFLF-Italic.ttf');
+}
+
+@font-face{
+	font-family:'Aleo-Bold';
+	src:url('fonts/aleo/Aleo-Bold.otf');
+}
+
+@font-face{
+	font-family:'Aleo-Regular';
+	src:url('fonts/aleo/Aleo-Regular.otf');
+}
+
+@font-face{
+	font-family:'Aleo-Italic';
+	src:url('fonts/aleo/Aleo-Italic.otf');
+}
+
+@font-face{
+	font-family:'Aleo-Bolditalic';
+	src:url('fonts/aleo/Aleo-BoldItalic.otf');
+}

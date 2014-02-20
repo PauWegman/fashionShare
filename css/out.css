@@ -1,0 +1,414 @@
+/*body{
+	background-image: url('../images/Fashion share-02.jpg');
+	background-repeat: no-repeat;
+}*/
+
+#header{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 8%;
+	background-color: #BFE8D7;
+	z-index: 999;
+}
+
+#logoDiv{
+	position: fixed;
+	left: 14%;
+	top: 2%;
+}
+
+#logoDiv:hover{
+	text-shadow:0px 0px 7px #FFFFFF;
+}
+
+#logo{
+	font-size: 30px;
+	color: black;
+	font-family: 'BodoniFLF-Bolditalic';
+	cursor: pointer;
+	letter-spacing: -0.75;
+	text-decoration: none;
+}
+
+.filterOptions{
+	position: fixed;
+	background-color: black;
+	top: 2%;
+	display: inline;
+	border-radius: 100%;
+	cursor: pointer;
+	width: 32px;
+	height: 32px;
+}
+
+#filterLast{
+	left: 30%;
+}
+
+#filterTag{
+	left: 32%;
+}
+
+#filterShirt{
+	left: 35%;
+}
+
+#filterPants{
+	left: 38%;
+}
+
+#filterShoes{
+	left: 41%;
+}
+
+#filterAccessories{
+	left: 44%;
+}
+
+#filterSearch{
+	left: 47%;
+}
+
+#extras{
+	position: fixed;
+	left: 60%;
+	top: 2%;
+	width: 40%;
+	color: white;
+	font-size: 20px;
+}
+
+#extras ul li{
+	display: inline;
+	list-style: none;
+	padding-left: 10%;
+	cursor: pointer;
+}
+
+#extras ul li:hover{
+	text-shadow:0px 0px 7px white;
+}
+
+#search {
+	width: 14%;
+	position: fixed;
+	left: 52%;
+	height: 5%;
+}
+
+#imgSearch {
+	position: fixed;
+	left: 53%;
+}
+
+#txtSearch{
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	position: fixed;
+	left: 55%;
+	top: 2.5%;
+}
+
+#user {
+	width: 12%;
+	position: fixed;
+	right: 14%;
+	height: 6%;
+	top: 1%;
+}
+
+#userName {
+	color: white;
+	position: fixed;
+	top: 3%;
+	right: 23%;
+	font-size: 18px;
+	font-family: 'Aleo-Bolditalic';
+}
+
+#userPic {
+	position: fixed;
+	right: 20%;
+}
+/*////////////////////////////////*/
+
+#classes{
+	width: 100%;
+	height: 14%;
+	position: absolute;
+	top: 8%;
+	left: 0%;
+	background-color: rgba(191, 232, 215, .25);
+	font-family: 'Aleo-Regular';
+}
+
+#classes ul li {
+	display: inline;
+	list-style-type: none;
+}
+
+#ulClasses
+{
+	position: absolute;
+	left: 10%;
+	font-size: x-large;
+	top: -9%;
+}
+
+#ulClasses li{
+	padding-left: 29px;
+}
+
+#ulActiveFilters{
+	position: absolute;
+	left: 10%;
+	top: 1%;
+}
+
+#ulActiveFilters li{
+	border: 1px solid black;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.deleteFilter{
+	border: 1px solid black;
+	background: black;
+	color: white;
+	height: 10px;
+	width: 10px;
+	border-radius: 100%;
+}
+
+#sort{
+	position: absolute;
+	left: 60%;
+	top: 56%;
+	height: 30%;
+	width: 8%;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+/*///////////////////////////////////*/
+
+#content{
+	position: absolute;
+	left: 0px;
+	top: 22%;
+	width: 100%;
+	height: 100%;
+}
+
+#posibleFilters{
+	position: absolute;
+	width: 10%;
+	height: 85%;
+	top: 0%;
+	left: 11%;
+	font-size: 15px;
+}
+
+#posibleFilters ul{
+	list-style-type: none;
+	font-family: 'Aleo-Regular';
+}
+
+.first{
+	font-family: 'Aleo-Bold';
+}
+
+#clothes{
+	position: absolute;
+	width: 46%;
+	height: 100%;
+	left: 25%;
+}
+
+#article1{
+	top: 3%;
+	left: 1%;
+}
+
+.article{
+	position: absolute;
+	width: 30%;
+	height: 30%;
+}
+
+.clotheimg {
+	position: absolute;
+	border: 1px solid black;
+	width: 77%;
+	height: 70%;
+	top: 1%;
+	left: 8%;
+}
+
+.pricetag{
+	top: 4%;
+	position: absolute;
+	left: 1%;
+}
+
+.price{
+	position: absolute;
+	z-index: 2;
+	text-align: center;
+	width: 40px;
+	font-family: 'Aleo-Regular';
+	font-size: 15px;
+}
+
+.pricetag1{
+	height: 20px;
+	width: 10px;
+	border-radius: 90px 0 0 90px;
+	-moz-border-radius: 90px 0 0 90px;
+	-webkit-border-radius: 90px 0 0 90px;
+	background: lime;
+	position: absolute;
+}
+
+.pricetag2{
+	width: 20px;
+	height: 20px;
+	background: lime;
+	position: absolute;
+	left: 10px;
+}
+
+.pricetag3{
+	width: 0;
+	height: 0;
+	border-left: 20px solid lime;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	position: absolute;
+	left: 30px;
+}
+
+.articleName{
+	font-family: 'Aleo-Regular';
+}
+
+.articleDescript{
+	width: 100%;
+	position: absolute;
+	left: 8%;
+	bottom: 4%;
+}
+
+.articleDetail{
+	font-family: 'Aleo-Italic';
+	font-size: 12px;
+}
+
+#feed {
+    position: absolute;
+    width: 16%;
+    height: 100%;
+    float: right;
+    right: 13%;
+}
+
+#text {
+    font-size: 27px;
+    font-family: 'BodoniFLF-Italic';
+    position: absolute;
+    top: 2%;
+    left: 8%;
+}
+
+#feedArticle1{
+    top: 8%;
+}
+
+.feedArticle {
+    position: absolute;
+    height: 25%;
+    width: 100%;
+}
+
+.feedArticleImage {
+    border: 1px solid;
+    height: 61%;
+    width: 53%;
+    left: 6%;
+    position: absolute;
+}
+
+.feedArticleName {
+    top: 66%;
+    position: absolute;
+    left: 6%;
+    font-size: 14px;
+    font-family: 'Aleo-Italic';
+}
+
+.feedArticleDescript {
+    position: absolute;
+    top: 76%;
+    left: 6%;
+    font-family: 'Aleo-Italic';
+    font-size: 12px;
+}
+
+.star{
+	position: absolute;
+	bottom: -1px;
+}
+
+#star1{
+	left: 6%;
+}
+
+#star2{
+	left: 16%;
+}
+
+#star3{
+	left: 26%;
+}
+
+#star4{
+	left: 36%;
+}
+
+#star5{
+	left: 46%;
+}
+
+@font-face{
+	font-family:'BodoniFLF-Bolditalic';
+	src:url('fonts/bodoni/BodoniFLF-BoldItalic.ttf');
+}
+
+@font-face{
+	font-family:'BodoniFLF-Italic';
+	src:url('fonts/bodoni/BodoniFLF-Italic.ttf');
+}
+
+@font-face{
+	font-family:'Aleo-Bold';
+	src:url('fonts/aleo/Aleo-Bold.otf');
+}
+
+@font-face{
+	font-family:'Aleo-Regular';
+	src:url('fonts/aleo/Aleo-Regular.otf');
+}
+
+@font-face{
+	font-family:'Aleo-Italic';
+	src:url('fonts/aleo/Aleo-Italic.otf');
+}
+
+@font-face{
+	font-family:'Aleo-Bolditalic';
+	src:url('fonts/aleo/Aleo-BoldItalic.otf');
+}

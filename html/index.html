@@ -1,0 +1,58 @@
+<head>
+<link rel="stylesheet" type="text/css" href="index.css">
+<script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="scripts/easyModal.js"></script>
+<script type="text/javascript" src="scripts/login.js"></script>
+</head>
+
+<body>
+<div id="contentLeft">
+	<div id="image"></div>
+	<div id="fashionTag">Fashion</div>
+	<div class="triangle" id="trian1"></div>
+	<div id="shareTag">Share</div>
+	<div class="triangle" id="trian2"></div>
+</div>
+<div id="contentRight">
+
+	<div id="divLogin">
+		<form name="login" id="formLogin">
+			<input type="button" id="btnLogin" name="btnLogin" value="Log in">
+			<label id="lblUserLog">USER</label>
+			<input type="text" id="txtUserLog" name="txtUserLog" required class="txtLog">
+			<label id="lblPassLog">PASS</label>
+  			<input type="password" id="txtPassLog" name="txtPassLog" required class="txtLog">
+		</form>
+	</div>
+
+	<div id="descript">
+		<div id="question">YOU DON'T HAVE AN ACCOUNT?</div>
+		<div class="separator" id="sep1"></div>
+		<div id="join">Join us · It's easy & free!</div>
+		<div class="separator" id="sep2"></div>
+	</div>
+
+	<div id="divRegister">
+		<form name="register">
+			<label id="lblUserReg">USER</label>
+			<input type="text" id="txtUserReg" name="txtUserReg" required><br>
+			<label id="lblPassReg">PASSWORD</label>
+			<input type="password" id="txtPassReg" name="txtPassReg" required><br>
+			<label id="lblMail">E-MAIL</label>
+			<input type="mail" id="txtMail" name="txtMail" required><br>
+			<label id="lblName">NAME</label>
+			<input type="text" id="txtName" name="txtName" required><br>
+			<label id="lblLast">LAST NAME</label>
+			<input type="text" id="txtLast" name="txtLast" required><br>
+			<label id="lblBirth">BIRTH</label>
+			<input type="date" id="txtBirth" name="txtBirth" required><br>
+			<label id="lblSex">SEX</label>
+			<label id="lblWoman">W</label>
+			<input type="radio" id="rbtWoman" name="txtGender">
+			<label id="lblMan">M</label>
+			<input type="radio" id="rbtMan" name="txtGender"><br>
+			<input type="button" id="btnRegister" name="btnRegister" value="register">
+		</form>
+	</div>
+</div>
+</body>

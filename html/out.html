@@ -1,0 +1,143 @@
+<!--A la izquierda, un newsfeed con actividades como recomendaciones de amigos, posts, etc, como el newsfeed de facebook. A la derecha la lista de amigos online, como facebook. Al clickear se abre un chat similar a facebook. En el centro está la busqueda de productos de amazon, con filtros de busqueda, ratings, comentarios, etc. Es solo eso basicamente.-->
+<head>
+<link rel="stylesheet" type="text/css" href="out.css">
+</head>
+
+<body>
+<div id="header">
+	<div id="logoDiv">
+		<a href="/"><header id="logo">Fashion · Share</header></a>
+	</div>
+
+	<div id="filters">
+		<div class="filterOptions" id="filterTag">
+			<img src="images/dress.png" class="optImg">
+		</div>
+		<div class="filterOptions" id="filterShirt">
+			<img src="images/dress2.png" class="optImg">
+		</div>
+		<div class="filterOptions" id="filterPants">
+			<img src="images/skirt.png" class="optImg">
+		</div>
+		<div class="filterOptions" id="filterShoes">
+			<img src="images/short.png" class="optImg">
+		</div>
+		<div class="filterOptions" id="filterAccessories">
+			<img src="images/tshirt.png" class="optImg">
+		</div>
+		<div class="filterOptions" id="filterSearch">
+			<img src="images/pants.png" class="optImg">
+		</div>
+	</div>
+
+	<div id="extras">
+		<div id="search">
+			<img src="images/search.png" id="imgSearch">
+			<input type="text" id="txtSearch">
+		</div>
+		<div id="user">
+			<div id="userName">John Doe</div>
+			<div id="userPic">
+				<img src="images/user.png">
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="classes">
+	<ul id="ulClasses">
+		<li>Top products</li>
+		<li>All</li>
+		<li>Sports</li>
+		<li>Gala</li>
+		<li>Hippie</li>
+		<li>Vintage</li>
+		<li>Winter</li>
+		<li>Summer</li>
+	</ul>
+
+	<ul id="ulActiveFilters">
+		<li>XL<div class="deleteFilter">x</div></li>
+		<li>Rent<div class="deleteFilter">x</div></li>
+	</ul>
+
+	<select id="sort">
+  		<option value="Sort by...">Sort by...</option>
+	</select>
+</div>
+
+<div id="content">
+	<div id="posibleFilters">
+		<ul id="location">
+	      <li class="first">Location</li>
+	      <li>Lorem</li>
+	      <li>Lorem</li>
+	      <li>Lorem</li>
+	      <li>Lorem</li>
+	  	</ul>
+
+	  	<ul id="price">
+	      <li class="first">Price Lame</li>
+	      <li>50-100</li>
+	      <li>100-150</li>
+	      <li>150-200</li>
+	      <li>200-500</li>
+	      <li>500-1000</li>
+	      <li>More than 1000</li>
+	  	</ul>
+
+	  	<ul id="type">
+	      <li class="first">Type</li>
+	      <li>Rent</li>
+	      <li>Size</li>
+	      <li>Buy &amp; rent</li>
+	      <li>New</li>
+	  	</ul>
+
+	  	<ul id="size">
+	      <li class="first">Size</li>
+	      <li>S</li>
+	      <li>M</li>
+	      <li>L</li>
+	      <li>XL</li>
+	      <li>More than XL</li>
+	  	</ul>
+	</div>
+
+	<div id="clothes">
+		<div id="article1" class="article">
+			<div class="clotheimg"></div>
+			<div class="pricetag">
+				<div class="price">$15</div>
+				<div class="pricetag1"></div>
+				<div class="pricetag2"></div>
+				<div class="pricetag3"></div>
+			</div>
+			<div class="articleDescript">
+				<div class="articleName">Article Name</div>
+				<div class="articleDetail">Detail</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="feed">
+  		<div id="text">Shop Feed</div>
+  		<div class="feedArticle" id="feedArticle1">
+   			<div class="feedArticleImage"></div>
+    		<div class="feedArticleName">
+				Article name
+			</div>
+			<div class="feedArticleDescript">
+				Article description
+			</div>
+	  		<div class="stars">
+	  			<div id="star1" class="star">☆</div>
+	  			<div id="star2" class="star">☆</div>
+	  			<div id="star3" class="star">☆</div>
+	  			<div id="star4" class="star">☆</div>
+	  			<div id="star5" class="star">☆</div>
+			</div>
+  		</div>
+	</div>
+</div>
+</body>
