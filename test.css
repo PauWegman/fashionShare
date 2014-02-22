@@ -1,0 +1,23 @@
+body{
+	background-image:url(../../../%5BFACU%5D/DISE%C3%91O%20GR%C3%81FICO/vn16/imagenes/Fashion%20share-04.jpg)
+	}
+
+div{
+	border:1px solid;
+}
+
+#container {
+	border: 1px solid;
+	height: 100%;
+	width: 100%;
+}
+
+#header{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 8%;
+	background-color: #BFE8D7;
+	z-index: 999;
+}
